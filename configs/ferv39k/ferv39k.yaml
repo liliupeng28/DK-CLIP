@@ -1,0 +1,16 @@
+DATA:
+    ROOT: '/home/'
+    TRAIN_FILE: '/home/data/fer39k_train.txt'
+    VAL_FILE: '/home/data/fer39k_test.txt'
+    DATASET: dfew
+    NUM_FRAMES: 16
+    NUM_DIVIDE: 4
+    NUM_CLASSES: 7
+    LABEL_LIST: '/home/data/DK-CLIP/labels2prompt/ferv39k_7_AUE_labels.csv'
+MODEL:
+    ARCH: ViT-B/16
+TRAIN:
+    BATCH_SIZE: 8
+    ACCUMULATION_STEPS: 2
+    EPOCHS: 50
+    LR: 2.e-6
