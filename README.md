@@ -16,6 +16,7 @@ torchrun --nproc_per_node=2 --master_port=12348 main.py --config=configs/dfew/df
 | 4    | 93.44       |74.79 | 66.03 |84.10    |61.57 |30.53 |	52.71 |	66.16 |	74.48|
 | 5    | 95.90       |83.93 | 76.50  |78.44    |61.93 |30.29 |	49.46 |	68.06 |	77.57|
 | Avg  | 94.61       |76.19 | 75.06  |78.65    |63.61 |23.60 |	42.93 |	64.95 |	75.41|
+
 The relevant run logs can be viewed log/.
 # Acknowledgement
 We appreciate the pioneer project [X-CLIP](https://github.com/microsoft/VideoX/tree/master/X-CLIP).
